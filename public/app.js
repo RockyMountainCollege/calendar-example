@@ -12,14 +12,6 @@ $(document).ready(function() {
               googleCalendarId: 'rocky.edu_2gbenc7go3t1k90k0m3utq7g4o@group.calendar.google.com',
               className: 'master-calendar'
           },
-          {
-              googleCalendarId: 'rocky.edu_4v1r3jp4eqa21812fbmknahisg@group.calendar.google.com',
-              className: 'rmc-sports'
-          },
-          {
-              googleCalendarId: 'rocky.edu_mhe9lkvurr3hl4teq1opoi9mdc@group.calendar.google.com',
-              className: 'first-year-experiance'
-          },
         ]
     });
 
@@ -31,15 +23,5 @@ $(document).ready(function() {
     $("#rmc-student-events").click(function() {
       $(".rmc-student-events").toggle();
       $("#rmc-student-events").toggleClass('btn-primary btn-default');
-    });
-
-    $("#rmc-sports").click(function() {
-      $(".rmc-sports").toggle();
-      $("#rmc-sports").toggleClass('btn-primary btn-default');
-    });
-
-    $("#first-year-experiance").click(function() {
-      $(".first-year-experiance").toggle();
-      $("#first-year-experiance").toggleClass('btn-primary btn-default');
     });
 });
