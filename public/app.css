@@ -8,7 +8,12 @@ body {
 }
 
 .rmc-student-events {
-  background-color: red;
+  background-color: #548c4d;
+  color: black;
+}
+
+.master-calendar {
+  background-color: #95865b;
   color: black;
 }
 
